@@ -1,3 +1,3 @@
-# 1-criando-repositorio-dio
-Desafio de projeto sobre GIT/GITHUB
-TESTANDO 123
+#  DESAFIO GIT/GITHUB  PRIMEIRO DESAFIO DIO
+Desafio de projeto sobre GIT/GITHUB. Criando repositório, realizando alterações e comitando. 
+
