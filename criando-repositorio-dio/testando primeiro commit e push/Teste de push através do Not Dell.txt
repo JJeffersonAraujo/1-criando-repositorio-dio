@@ -1,0 +1,63 @@
+﻿Realizando o commit e push no GITHUB
+
+Como fazer commit no Github
+
+O git é uma ferramenta essencial para os desenvolvedores, por isso cada vez mais ela tem se tornando um pré-requisito para qualquer vaga, pois é extremamente prático trabalhar com versionamento de arquivos. Nesse artigo vou ensinar como fazer commit no Github.
+Mas antes de qualquer coisa, é importante ressaltar que esse tutorial é bem básico. Você vai aprender a criar seu repositório e subir seus arquivos. Ou seja, não falarei de temas como branchs, pois é algo um pouco mais avançado que abordarei em artigos futuros, tranquilo?
+
+Lista de comandos:
+
+•	“git init”
+•	“git status”
+•	“git add.”
+•	“git commit –m “texto explicando o motivo do commit”
+•	“git branch –M main”
+•	“git remote add origin <link_para_o_seu_repositorio>”
+•	“git push -u origin main”
+
+
+Primeiros Comandos
+
+Indo para nosso projeto no terminal, daremos um comando que vai “configurar” o projeto para que ele funcione com o git. Basta digitar o seguinte:
+
+“git init”
+
+Isso criará alguns arquivos próprios do git, entre eles o mais importante é o gitignore, pois nele está tudo o que se deve ignorar ao realizar o commit. É aqui onde vamos colocar diretórios e arquivos grandes, que podemos gerar facilmente, ou arquivos que não queremos que fiquem visíveis no repositório.
+Ao usar o git init, provavelmente, ele irá configurar tudo corretamente, mas é sempre bom dar uma olhada e verificar que está tudo certo.
+Após confirmar que os arquivos corretos estão no gitignore, vamos subir o projeto. Para isso, o primeiro comando que precisamos é o seguinte:
+
+“git status”
+
+Com ele podemos verificar quais arquivos ainda não adicionamos no repositório local da máquina. Como mostrado na imagem abaixo, são os arquivos marcados em vermelho.
+Para seguirmos corretamente temos que adicionar esses arquivos ao repositório local, então vamos precisar desse comando aqui:
+
+“git add.”
+
+Esse comando fará com que todos os arquivos fiquem prontos para o Github, por isso ele é indispensável. É importante observar que usei o git add . porque quero adicionar todos os arquivos do projeto, mas caso você queira adicionar apenas algum arquivo específico, basta usar git add <nome_do_arquivo>.
+No fim desse processo, ao digitar novamente o git status, vamos ver os arquivos verdes, Isso significa que estamos prontos para continuar.
+
+Primeiro Commit
+
+Agora faremos o primeiro commit do projeto. Basta utilizar o seguinte comando:
+
+“git commit –m “texto explicando o motivo do commit”
+
+A flag -m indica que vamos adicionar uma mensagem para aquele commit. Isso é muito importante, pois dessa forma conseguiremos identificar o que foi feito naquele commit. Por exemplo, você acabou de adicionar um Header na aplicação, então na mensagem você sinaliza que criou o header para a aplicação.
+O próximo comando será:
+“git branch –M main”
+
+Aqui vamos criar a branch main, que é a principal branch do repositório. Mas como falei anteriormente, você não precisa se preocupar com esse detalhe nesse tutorial.
+Agora vamos linkar os 2 repositórios, ou seja, o repositório do Github com o da nossa máquina. Para isso, usaremos o comando:
+
+“git remote add origin <link_para_o_seu_repositorio>”
+
+O link fica disponível na página em branco do Github que mostrei mais acima.
+Por fim, vamos enviar esse projeto com o seguinte comando:
+“git push -u origin main”
+
+Conclusão
+Pronto! Agora você sabe como fazer commit no Github. Parabéns! Espero que com esse tutorial você consiga realizar os seus commits e comece a aproveitar mais desse mundo incrível que é o versionamento de código.
+Bons estudos!
+
+
+
