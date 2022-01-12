@@ -1,4 +1,4 @@
-﻿Realizando o commit e push no GITHUB
+###Realizando o commit e push no GITHUB
 
 Como fazer commit no Github
 
