@@ -24,3 +24,5 @@ Segue os comandos:
 “git commit –m “add comantários relativos ao commit””
 
 Depois de comitado, dar o commando push
+
+git push origin main 
