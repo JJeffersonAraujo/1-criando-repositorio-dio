@@ -1,4 +1,4 @@
-#  DESAFIO GIT/GITHUB  PRIMEIRO DESAFIO DIO
+#  DESAFIO GIT/GITHUB  PRIMEIRO DESAFIO DIO (13/01/2022)
 Desafio de projeto sobre GIT/GITHUB. Criando repositório, realizando alterações e comitando. 
 
 #### Links úteis:
