@@ -1,4 +1,4 @@
-##Comandos GIT
+COMANDOS GITHUB
 
 mkdir = para criar pasta
 ls = listar 
