@@ -1,4 +1,4 @@
-#  DESAFIO GIT/GITHUB  PRIMEIRO DESAFIO DIO
+#  DESAFIO GIT/GITHUB  PRIMEIRO DESAFIO DIO 2
 Desafio de projeto sobre GIT/GITHUB. Criando repositório, realizando alterações e comitando. 
 
 #### Links úteis:
